@@ -14,6 +14,11 @@ public class GameMonobehaviour : MonoBehaviour
         this.LoadComponents();
     }
 
+    protected virtual void Start()
+    {
+        //For override
+    }
+
     protected virtual void LoadComponents()
     {
         //For override
